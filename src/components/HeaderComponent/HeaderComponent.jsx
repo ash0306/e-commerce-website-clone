@@ -8,7 +8,7 @@ function HeaderComponent() {
     <div className="header">
         <img
           className="logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          src="https://www.littsburgh.com/wp-content/uploads/2020/12/spark-books-logo-01-300x300.png"
         />
       
 
@@ -19,7 +19,7 @@ function HeaderComponent() {
 
       <div className="navbar">
         <div className="options">
-            <span className="lineOne">Hello Guest</span>
+            <span className="lineOne">Hello User</span>
             <span className="lineTwo">Sign In</span>
         </div>
         <div className="options">

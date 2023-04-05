@@ -1,9 +1,21 @@
 .home {
+  background-color: #98CAA4;
     display: flex;
     justify-content: center;
   }
   .home_banner{
     width: 100%;
     z-index: -1;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    
+  }
+
+  .home_content{
+    display: grid;
+    z-index: 1;
+    justify-content: center;
+    place-items: center;
+    grid-template-columns: repeat(4, 280px);
+    grid-template-rows: 380px;
+    grid-gap: 20px;
+    background-color: #98CAA4;
   }

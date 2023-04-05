@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "pname": "It Ends With Us : Sometimes The One Who Loves You Is The One Who Hurts You The Most",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81s0B6NYXML.jpg",
+        "price": 214,
+        "rating": 4
+    },
+    {
+        "id": 2,
+        "pname": "Red Queen 4-Book Hardcover Box Set: Books 1-4 ",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41i6ThSua-L._SX415_BO1,204,203,200_.jpg",
+        "price": 5060,
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "pname": "A Court of Thorns and Roses Paperback Box Set (5 books)",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/810Wt+FaYsL._AC_UL600_FMwebp_QL65_.jpg",
+        "price": 2067,
+        "rating": 5
+    },
+    {
+        "id": 4,
+        "pname": "The Bridge Kingdom Hardcover - 13 August 2019",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81JRbVVPCFL.jpg",
+        "price": 3304,
+        "rating": 5
+    },
+    {
+        "id": 5,
+        "pname": "Air Awakens: The Complete Series Hardcover - 12 August 2020",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/519uGERfbBL.jpg",
+        "price": 7346,
+        "rating": 4
+    },
+    {
+        "id": 6,
+        "pname": "It Starts With Us Paperback - 18 October 2022",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81FummIc2eL.jpg",
+        "price": 240,
+        "rating": 5
+    }
+]
