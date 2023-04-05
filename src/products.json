@@ -3,6 +3,7 @@
         "id": 1,
         "pname": "It Ends With Us : Sometimes The One Who Loves You Is The One Who Hurts You The Most",
         "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81s0B6NYXML.jpg",
+        "description": "It Ends with Us is a romance novel by Colleen Hoover, published by Atria Books on August 2, 2016. Based on the relationship between her mother and father.",
         "price": 214,
         "rating": 4
     },
@@ -10,6 +11,7 @@
         "id": 2,
         "pname": "Red Queen 4-Book Hardcover Box Set: Books 1-4 ",
         "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41i6ThSua-L._SX415_BO1,204,203,200_.jpg",
+        "description": "Red Queen is a young adult fantasy novel written by American writer Victoria Aveyard. Published in February 2015, it was her first novel and first series. Aveyard followed up with three sequels: Glass Sword, King's Cage and War Storm.",
         "price": 5060,
         "rating": 5
     },
@@ -17,6 +19,7 @@
         "id": 3,
         "pname": "A Court of Thorns and Roses Paperback Box Set (5 books)",
         "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/810Wt+FaYsL._AC_UL600_FMwebp_QL65_.jpg",
+        "description": "A Court of Thorns and Roses is a new adult fantasy novel series by American author Sarah J. Maas, beginning with the novel of the same name, released in May 2015.",
         "price": 2067,
         "rating": 5
     },
@@ -24,6 +27,7 @@
         "id": 4,
         "pname": "The Bridge Kingdom Hardcover - 13 August 2019",
         "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81JRbVVPCFL.jpg",
+        "description": "The Bridge Kingdom is an exciting new fantasy series from USA Today bestselling author Danielle L Jensen.",
         "price": 3304,
         "rating": 5
     },
@@ -31,6 +35,7 @@
         "id": 5,
         "pname": "Air Awakens: The Complete Series Hardcover - 12 August 2020",
         "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/519uGERfbBL.jpg",
+        "description": "Air Awakens is a five part YA/fantasy series written by author Elise Kova",
         "price": 7346,
         "rating": 4
     },
@@ -38,6 +43,7 @@
         "id": 6,
         "pname": "It Starts With Us Paperback - 18 October 2022",
         "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81FummIc2eL.jpg",
+        "description": "It Starts with Us is a romance novel by Colleen Hoover, published by Atria Books on October 18, 2022. It is the sequel to her 2016 best-selling novel It Ends with Us",
         "price": 240,
         "rating": 5
     }

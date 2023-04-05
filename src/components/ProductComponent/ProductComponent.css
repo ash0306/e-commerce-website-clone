@@ -5,6 +5,7 @@
     background-color: white;
     z-index: 1;
     padding: 25px;
+    /* position:absolute; */
 }
 
 .product > img{
@@ -31,3 +32,12 @@
 .product_rating{
     display: flex;
 }
+
+.desc{
+    display: none;
+}
+/* 
+.product:hover + .desc{
+    display:flex;
+    z-index: 100;
+} */

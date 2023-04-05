@@ -25,6 +25,7 @@ function HomeComponent() {
               image={product.image}
               id={product.id}
               rating={product.rating}
+              description={product.description}
             />
             </div>)
         }
