@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import { useStateValue } from './StateProvider';
 import { auth } from './firebase';
 import MainCheckoutComponent from './components/MainCheckoutComponent/MainCheckoutComponent';
+import OrderPlacedComponent from './components/OrderPlacedComponent/OrderPlacedComponent';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route exact path="/" element={<><HeaderComponent/><HomeComponent/></>}></Route>
           <Route exact path="/login" element={<LoginComponent/>}/>
           <Route exact path='/checkout' element={<MainCheckoutComponent/>}/>
+          <Route path="/order" element={<OrderPlacedComponent/>}></Route>
         </Routes>
       </Router>
     </div>
