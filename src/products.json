@@ -46,5 +46,53 @@
         "description": "It Starts with Us is a romance novel by Colleen Hoover, published by Atria Books on October 18, 2022. It is the sequel to her 2016 best-selling novel It Ends with Us",
         "price": 240,
         "rating": 5
+    },
+    {
+        "id":7,
+        "pname": "Ikigai: The Japanese secret to a long and happy life [Hardcover]",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/814L+vq01mL.jpg",
+        "description": "We all have an ikigai. It's the Japanese word for ‘a reason to live’ or ‘a reason to jump out of bed in the morning’.",
+        "price": 247,
+        "rating": 4
+    },
+    {
+        "id":8,
+        "pname": "Harry Potter Box Set: The Complete Collection",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81zqe4fNdlL.jpg",
+        "description": "A beautiful boxed set containing all seven Harry Potter novels in paperback. These are the new editions of the classic and internationally bestselling, multi-award-winning series",
+        "price": 2439,
+        "rating": 5
+    },
+    {
+        "id":9,
+        "pname": "Haunting Adeline Paperback English Edition 2023",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71QSecJ64LL.jpg",
+        "description": "H. D. Carlton is an International and USA Today Bestselling author. She lives in Ohio with her partner, two dogs, and cat.",
+        "price": 370,
+        "rating": 5
+    },
+    {
+        "id":10,
+        "pname": "War of Lanka (Ram Chandra Series Book 4) Paperback",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91+T1TAxkKL.jpg",
+        "description": "LANKA WILL BURN. DARKNESS WILL PERISH. BUT CAN LIGHT ENDURE? INDIA, 3400 BCE.Greed. Rage. Grief. Love. Smouldering tinder, waiting to trigger a war.",
+        "price": 307,
+        "rating": 5
+    },
+    {
+        "id":11,
+        "pname": "Shatter Me - The Complete Collection (9-Book Boxset) Paperback",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71hOlJ9ah9L.jpg",
+        "description": "The most popular YA fantasy of 2021 by Tahereh Mafi",
+        "price": 4199,
+        "rating": 5
+    },
+    {
+        "id":12,
+        "pname": "Percy Jackson Complete Collection - Paperback",
+        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71toKgSkMAS.jpg",
+        "description": "The book follows the entire story of Percy, a boy set in modern times who discovers he is a demi-God, Son of Poseidon",
+        "price": 1350,
+        "rating": 5
     }
 ]
