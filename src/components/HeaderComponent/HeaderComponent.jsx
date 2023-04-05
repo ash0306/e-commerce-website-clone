@@ -8,6 +8,7 @@ import { auth } from '../../firebase'
 
 
 function HeaderComponent() {
+  // const [searchInput, setSearchInput] = useState('');
   const [{basket, user}, dispatch] = useStateValue();
 
   const handleAuth = () => {
@@ -27,7 +28,7 @@ function HeaderComponent() {
       
 
       <div className="searchbar">
-        <input className="searchInput" type="text" />
+        <input className="searchInput" type="text" placeholder='Search for books...'/>
         <SearchIcon className="searchIcon" />
       </div>
 
