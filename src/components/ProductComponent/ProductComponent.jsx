@@ -3,15 +3,6 @@ import './ProductComponent.css'
 import {useStateValue} from '../../StateProvider';
 
 function ProductComponent({id,pname,image,price,rating,description}) {
-    const [isHover, setIsHover] = useState(false);
-    
-    const handleMouseOver = () => {
-        setIsHover(true);
-    };
-
-    const handleMouseOut = () => {
-        setIsHover(false);
-    };
 
     const [{basket},dispatch] = useStateValue();
 
@@ -32,10 +23,10 @@ function ProductComponent({id,pname,image,price,rating,description}) {
 
   return (
     <React.Fragment>
-    <div className='product' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+    <div className='product'>
             <img src={image}
             alt='product'/>
-            <div className='product_info'>
+            <div className='product_inf'>
                 <p>{pname}</p>
                 <p className='product_price'>
                 <strong>Rs.{price}</strong>
@@ -50,7 +41,6 @@ function ProductComponent({id,pname,image,price,rating,description}) {
             </div><br/>
         <button onClick={() => addToBasket (pname)}>Add to Basket</button>
     </div>
-    {/* {isHover ? <div className='desc'><p>{description}</p></div>:null} */}
     </React.Fragment>
   )
 }

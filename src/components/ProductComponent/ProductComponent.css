@@ -5,14 +5,15 @@
     background-color: white;
     z-index: 1;
     padding: 25px;
-    /* position:absolute; */
 }
 
 .product > img{
-    max-height: 100px;
     width: 100%;
+    max-height: 100px;
     object-fit:contain;
     margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .product > button{
@@ -25,19 +26,10 @@
     cursor: pointer;
 }
 
-.product_info{
-    height: 100px;
+.product_inf{
+    height:100px;
+    width:98%;
 }
-
 .product_rating{
     display: flex;
 }
-
-.desc{
-    display: none;
-}
-/* 
-.product:hover + .desc{
-    display:flex;
-    z-index: 100;
-} */

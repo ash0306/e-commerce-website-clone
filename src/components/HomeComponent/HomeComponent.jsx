@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './HomeComponent.css'
 import ProductComponent from '../ProductComponent/ProductComponent'
 import Products from '../../products.json'
 
 function HomeComponent() {
+  const [hide, setHide] = useState(false)
   return (
     <div className="home">
     <div className="home_container">
@@ -29,7 +30,7 @@ function HomeComponent() {
             />
             </div>)
         }
-      </div>
+      </div>      
     </div>
   </div>
   )

@@ -1,0 +1,24 @@
+.checkout{
+    display: flex;
+    flex-direction: column;
+    background-color:ghostwhite;
+    padding: 15px;
+}
+.product_img{
+    object-fit: contain;
+    height:100px;
+    float:left;
+    width:40%;
+}
+
+.product_info{
+    float:left;
+}
+
+.product_info > button{
+    width:250px;
+    height:30px;
+    border-radius: 15px;
+    background-color: darkslategrey;
+    color: white;
+}

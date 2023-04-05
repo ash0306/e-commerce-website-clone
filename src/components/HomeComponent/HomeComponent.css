@@ -1,18 +1,17 @@
 .home {
-  background-color: #98CAA4;
-    display: flex;
-    justify-content: center;
+    background-color: #98CAA4;
+    /* display: flex; */
   }
   .home_banner{
     width: 100%;
     z-index: -1;
-    
   }
 
   .home_content{
+    padding-bottom: 50px;
     display: grid;
     z-index: 1;
-    justify-content: center;
+    justify-content: center; 
     place-items: center;
     grid-template-columns: repeat(4, 280px);
     grid-template-rows: 380px;
@@ -27,6 +26,7 @@
 
   .home_caption{
     font-family: 'Cursive','Lucida Handwriting', cursive;
+    text-shadow: 2px 2px #BABABA;
     font-size:  40px;
     text-align: right;
     top: 0;
