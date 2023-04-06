@@ -6,7 +6,7 @@ This is my version of an E-Commerce website.
 
 1. ReactJs
 2. Redux
-3. Firebase (for backend user authentication)
+3. Firebase (for user authentication)
 4. CSS (for styling)
 
 ### Hosting Link 
