@@ -23,6 +23,21 @@ function DetailsComponent({id,pname,author,price,image,rating,description}) {
             },
         });
     };
+    const addToWishlist = (pname) => { 
+        alert(`${pname} added to wishlist`)
+        dispatch({
+            type: 'ADD_TO_WISHLIST',
+            product: {
+                id: id,
+                pname: pname,
+                image: image,
+                price: price,
+                author: author,
+                rating: rating,
+                description: description
+            },
+        });
+    };
   return (
     <div className='details'>
         <div className='details_left'><img className='details_img' src={image} alt='product'/></div>
@@ -38,6 +53,7 @@ function DetailsComponent({id,pname,author,price,image,rating,description}) {
             </div><br/>
             <p className='details_desc'>{description}</p><br/><br/>
             <button onClick={() => addToBasket (pname)}>Add to Basket</button>
+            <button onClick={() => addToWishlist (pname)}>Add to Wishlist</button>
         </div>
     </div>
   )

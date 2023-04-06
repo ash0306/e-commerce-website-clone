@@ -1,7 +1,7 @@
 export const initialState = {
     details : [],
     basket : [],
-    user : null
+    wishlist : []
 };
 
 export const getBasketTotal = (basket) => basket?.reduce((amount, product) => product.price + amount, 0);
@@ -14,6 +14,11 @@ const reducer = (state,action) => {
                 ...state,
                 basket : [...state.basket, action.product],
             };
+        case 'ADD_TO_WISHLIST':
+            return{
+                ...state,
+                wishlist : [...state.wishlist, action.product],
+            }
         
         case 'SHOW_DESCRIPTION':
             return{
@@ -45,6 +50,21 @@ const reducer = (state,action) => {
                 ...state,
                 basket: newBasket
             }
+        case 'REMOVE_FROM_WISHLIST':
+            const ind = state.wishlist.findIndex(
+                (wishlistItem) => wishlistItem.id === action.id);
+            let newWishlist = [...state.wishlist];
+    
+            if(ind>=0){
+                newWishlist.splice(ind,1);
+            }
+            else{
+                console.warn('Cannot remove product as its not in wishlist')
+            }
+            return {
+                ...state,
+                wishlist: newWishlist
+        }
         case "SET_USER":
             return{
                 ...state,

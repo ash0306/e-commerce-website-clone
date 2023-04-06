@@ -1,0 +1,22 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    background-color:#DCDCDC;
+    padding: 15px;
+    border: 1px solid black;
+}
+.item_img{
+    object-fit: contain;
+    height:100px;
+    float:left;
+    width:40%;
+}
+
+.item_info > button{
+    width:250px;
+    height:30px;
+    border-radius: 15px;
+    background-color: darkslategrey;
+    color: white;
+    cursor: pointer;
+}

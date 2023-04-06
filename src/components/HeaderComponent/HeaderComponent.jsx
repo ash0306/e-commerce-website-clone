@@ -5,6 +5,7 @@ import SearchIcon from "@material-ui/icons/Search"
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket'
 import { useStateValue } from '../../StateProvider'
 import { auth } from '../../firebase'
+import FavoriteIcon from '@material-ui/icons/Favorite'
 
 
 function HeaderComponent(id) {
@@ -38,10 +39,12 @@ function HeaderComponent(id) {
             <span className="lineTwo">{!user ? 'Sign In' : 'Sign Out'}</span>
         </div>
         </Link>
+
+        <Link to='/wishlist'>
         <div className="options">
-            <span className="lineOne">Returns</span>
-            <span className="lineTwo">& Orders</span>
+            <FavoriteIcon/>
         </div>
+        </Link>
 
         <Link to='/checkout'>  
         <div className="Basket">

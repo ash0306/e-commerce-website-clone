@@ -10,6 +10,7 @@ import OrderPlacedComponent from './components/OrderPlacedComponent/OrderPlacedC
 import DisplayDetailsComponent from './components/DisplayDetailsComponent/DisplayDetailsComponent';
 import ShippingComponent from './components/ShippingComponent/ShippingComponent';
 import RegisterComponent from './components/RegisterComponent/RegisterComponent';
+import MainWishlistComponent from './components/MainWishlistComponent/MainWishlistComponent';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
           <Route exact path="/order" element={<OrderPlacedComponent/>}/>
           <Route exact path='/details' element={<DisplayDetailsComponent/>}/>
           <Route exact path='/shipping' element={<ShippingComponent/>}/>
+          <Route exact path='/wishlist' element={<MainWishlistComponent/>}/>
         </Routes>
       </Router>
     </div>
