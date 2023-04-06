@@ -8,17 +8,12 @@ import { auth } from '../../firebase'
 
 
 function HeaderComponent(id) {
-  const [{basket, user, details}, dispatch] = useStateValue();
+  const [{basket, user}, dispatch] = useStateValue();
   const clearDesc = () =>{
     dispatch({
       type: 'CLEAR_DESCRIPTION',
       id: id
     })
-  }
-  const handleAuth = () => {
-    if(user){
-      auth.signOut();
-    }
   }
 
   return (
@@ -38,9 +33,9 @@ function HeaderComponent(id) {
 
       <div className="navbar">
         <Link to={!user && '/login'}>
-        <div onClick={handleAuth} className="options">
-            <span className="lineOne">Hello {!user ? 'Guest' : user.email}</span>
-            <span className="lineTwo">{user ? 'Sign In' : 'Sign In'}</span>
+        <div className="options">
+            <span className="lineOne">Hello {!user ? 'Guest' : 'User'}</span>
+            <span className="lineTwo">{!user ? 'Sign In' : 'Sign Out'}</span>
         </div>
         </Link>
         <div className="options">

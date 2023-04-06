@@ -1,46 +1,43 @@
-import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
-import './LoginComponent.css'
-import {useNavigate} from 'react-router-dom'
+import React, {useState}from 'react'
+import './RegisterComponent.css'
+import {useNavigate, Link} from 'react-router-dom'
 import { auth } from '../../firebase';
+import { createUserWithEmailAndPassword } from 'firebase/auth';
 import HeaderComponent from '../HeaderComponent/HeaderComponent';
-import { signInWithEmailAndPassword } from 'firebase/auth';
 
-
-function LoginComponent() {
+function RegisterComponent() {
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const onLogin = (e) => {
+    const onSubmit = async(e) =>{
         e.preventDefault();
-        signInWithEmailAndPassword(auth, email, password)
-        .then((userCredential)=>{
+        createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
             const user = userCredential.user;
-            navigate('/')
+            navigate('/login')
         })
         .catch((error) => {
-            const errorMessage = error.message;
-            alert(errorMessage);
-        });
+            alert(error.message);
+        })
     }
 
   return (
     <div className='container'>
         <HeaderComponent/>
-    <div className='login'>
-        <div className='login_content'>
-            <h1>Login</h1>
+    <div className='register'>
+        <div className='register_content'>
+            <h1>Register</h1>
             <br/>
-            <form className='login_form'>
+            <form className='register_form'>
                 <h3>E-Mail: </h3>
                 <input type='text' value={email} onChange={(e) =>setEmail(e.target.value)} placeholder='Username or e-mail' required/>
                 <h3>Password: </h3>
                 <input type='password' value={password} onChange={(e) => setPassword(e.target.value)} placeholder='Password' required/>
                 <br/><br/>
-                <button type='submit' onClick={onLogin}>Login</button>
-                <p>Don't have an account?</p>
-                <button><Link to='/register' className='reg_btn'>Register Now</Link></button>
+                <button type='submit' onClick={onSubmit}>Register</button>
+                <p>Already have an Account?</p>
+                <button><Link to='/login' className='login_btn'>Login</Link></button>
             </form>
         </div>
     </div>
@@ -48,4 +45,4 @@ function LoginComponent() {
   )
 }
 
-export default LoginComponent
+export default RegisterComponent

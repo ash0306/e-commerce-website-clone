@@ -8,7 +8,7 @@ import HeaderComponent from '../HeaderComponent/HeaderComponent';
 import { Link } from 'react-router-dom';
 
 function MainCheckoutComponent() {
-  const [{basket},dispatch] = useStateValue();
+  const [{basket}] = useStateValue();
   return (
     <div className='main_checkout'>
       <HeaderComponent/>

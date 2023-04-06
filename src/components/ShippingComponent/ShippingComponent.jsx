@@ -7,7 +7,7 @@ import HeaderComponent from '../HeaderComponent/HeaderComponent';
 import { Link } from 'react-router-dom';
 
 function ShippingComponent() {
-    const [{basket},dispatch] = useStateValue();
+    const [{basket}] = useStateValue();
   return (
     <React.Fragment>
         <HeaderComponent/>

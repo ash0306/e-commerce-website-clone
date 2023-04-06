@@ -2,10 +2,12 @@ import React from 'react'
 import './HomeComponent.css'
 import ProductComponent from '../ProductComponent/ProductComponent'
 import Products from '../../products.json'
+import HeaderComponent from '../HeaderComponent/HeaderComponent'
 
 function HomeComponent() {
   return (
     <div className="home">
+      <HeaderComponent/>
     <div className="home_container">
       <div className='home_header'>
       <img
