@@ -1,21 +1,22 @@
 import React, { useState } from 'react'
 import './ProductComponent.css'
 import {useStateValue} from '../../StateProvider';
+import { Link } from 'react-router-dom';
 
-function ProductComponent({id,pname,image,price,rating,description}) {
+function ProductComponent({id,pname,author,image,price,rating,description}) {
 
     const [{basket},dispatch] = useStateValue();
 
-    const addToBasket = (pname) => {
-        alert(`${pname} added to basket`)
+    const showDesc = (pname) =>{
         dispatch({
-            type: 'ADD_TO_BASKET',
+            type: 'SHOW_DESCRIPTION',
             product: {
                 id: id,
                 pname: pname,
                 image: image,
                 price: price,
                 rating: rating,
+                author: author,
                 description: description
             },
         });
@@ -27,7 +28,7 @@ function ProductComponent({id,pname,image,price,rating,description}) {
             <img src={image}
             alt='product'/>
             <div className='product_inf'>
-                <p>{pname}</p>
+                <Link className='product_desc'>{pname}</Link>
                 <p className='product_price'>
                 <strong>Rs.{price}</strong>
                 </p>
@@ -39,7 +40,7 @@ function ProductComponent({id,pname,image,price,rating,description}) {
                     ))}
                 </div>
             </div><br/>
-        <button onClick={() => addToBasket (pname)}>Add to Basket</button>
+            <button onClick={() => showDesc(pname)}><Link className='product_link' to={'/details'}>View Details</Link></button>
     </div>
     </React.Fragment>
   )

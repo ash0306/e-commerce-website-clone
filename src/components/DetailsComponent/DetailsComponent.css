@@ -1,0 +1,38 @@
+.details{
+    display: flex;
+}
+
+.details_info{
+    padding-left: 20px;
+}
+
+.details_img{
+    height:300px;
+}
+
+.details_rating{
+    font-size: 20px;
+    display: flex;
+}
+
+.details_name{
+    font-size: 40px;
+}
+
+.details_price{
+    font-size: 20px;
+}
+
+.details_info > button{
+    background-color: #F8982D;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.details_desc{
+    font-size: 20px;
+}

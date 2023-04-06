@@ -12,7 +12,7 @@ function CheckoutComponent({id,pname,price,image,hideButton}) {
             type: 'REMOVE_FROM_BASKET',
             id: id
         })
-    }
+    } 
 
   return (
     <div className='checkout'>

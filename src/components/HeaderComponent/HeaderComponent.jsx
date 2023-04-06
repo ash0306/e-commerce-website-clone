@@ -7,10 +7,14 @@ import { useStateValue } from '../../StateProvider'
 import { auth } from '../../firebase'
 
 
-function HeaderComponent() {
-  // const [searchInput, setSearchInput] = useState('');
-  const [{basket, user}, dispatch] = useStateValue();
-
+function HeaderComponent(id) {
+  const [{basket, user, details}, dispatch] = useStateValue();
+  const clearDesc = () =>{
+    dispatch({
+      type: 'CLEAR_DESCRIPTION',
+      id: id
+    })
+  }
   const handleAuth = () => {
     if(user){
       auth.signOut();
@@ -19,7 +23,7 @@ function HeaderComponent() {
 
   return (
     <div className="header">
-      <Link to='/'>
+      <Link to='/' onClick={clearDesc}>
         <img
           className="logo"
           src="https://www.littsburgh.com/wp-content/uploads/2020/12/spark-books-logo-01-300x300.png"

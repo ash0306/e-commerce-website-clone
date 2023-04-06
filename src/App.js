@@ -8,6 +8,7 @@ import { useStateValue } from './StateProvider';
 import { auth } from './firebase';
 import MainCheckoutComponent from './components/MainCheckoutComponent/MainCheckoutComponent';
 import OrderPlacedComponent from './components/OrderPlacedComponent/OrderPlacedComponent';
+import DisplayDetailsComponent from './components/DisplayDetailsComponent/DisplayDetailsComponent';
 
 
 function App() {
@@ -15,8 +16,6 @@ function App() {
 
   useEffect (() => {
     auth.onAuthStateChanged((authUser) => {
-      console.log("THE USER IS >>> ", authUser);
-
       if (authUser) {
         dispatch({
           type: "SET_USER",
@@ -36,10 +35,11 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route exact path="/" element={<><HeaderComponent/><HomeComponent/></>}></Route>
+          <Route exact path="/" element={<><HeaderComponent/><HomeComponent/></>}/>
           <Route exact path="/login" element={<LoginComponent/>}/>
           <Route exact path='/checkout' element={<MainCheckoutComponent/>}/>
-          <Route path="/order" element={<OrderPlacedComponent/>}></Route>
+          <Route exact path="/order" element={<OrderPlacedComponent/>}/>
+          <Route exact path='/details' element={<DisplayDetailsComponent/>}/>
         </Routes>
       </Router>
     </div>

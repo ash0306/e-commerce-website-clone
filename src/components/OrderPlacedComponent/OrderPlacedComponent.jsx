@@ -6,7 +6,7 @@ import './OrderPlacedComponent.css'
 function OrderPlacedComponent() {
   return (
     <>
-    <HeaderComponent/>
+    <HeaderComponent/> 
     <div className='order_placed'>
         <img className='success_img' src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Eo_circle_green_checkmark.svg/800px-Eo_circle_green_checkmark.svg.png"
          alt= 'success'/>
