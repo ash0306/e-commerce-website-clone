@@ -10,4 +10,4 @@ This is my version of an E-Commerce website.
 4. CSS (for styling)
 
 ### Hosting Link 
-https://sprightly-squirrel-6684fa.netlify.app/
+https://ecommerce-website-clone.netlify.app/
