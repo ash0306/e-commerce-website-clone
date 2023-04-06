@@ -39,7 +39,7 @@ function MainCheckoutComponent() {
           thousandSeparator={true}
           prefix={'Rs.'}
         />
-        <button><Link to={'/order'} className='order_btn'> Confirm Order </Link></button>
+        <button><Link to={'/shipping'} className='confirm_btn'> Confirm Order </Link></button>
       </div>
     </div>
   )

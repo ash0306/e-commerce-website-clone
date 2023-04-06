@@ -1,0 +1,35 @@
+.heading{
+    padding-top: 20px;
+}
+
+.shipping_details{
+    padding-left: 20px;
+}
+
+.shipping_details > h3{
+    font-size: 30px;
+}
+
+.payment_details{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.payment_details > h3{
+    font-size: 30px;
+}
+
+.order_btn{
+    text-decoration: none;
+    color:white;
+}
+
+.payment_details > button{
+    width:200px;
+    height:32px;
+    font-size: 17px;
+    background-color: darkslategray;
+    color:white;
+    border-radius: 25px;
+    cursor: pointer;
+}

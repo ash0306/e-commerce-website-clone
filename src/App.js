@@ -9,6 +9,7 @@ import { auth } from './firebase';
 import MainCheckoutComponent from './components/MainCheckoutComponent/MainCheckoutComponent';
 import OrderPlacedComponent from './components/OrderPlacedComponent/OrderPlacedComponent';
 import DisplayDetailsComponent from './components/DisplayDetailsComponent/DisplayDetailsComponent';
+import ShippingComponent from './components/ShippingComponent/ShippingComponent';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Route exact path='/checkout' element={<MainCheckoutComponent/>}/>
           <Route exact path="/order" element={<OrderPlacedComponent/>}/>
           <Route exact path='/details' element={<DisplayDetailsComponent/>}/>
+          <Route exact path='/shipping' element={<ShippingComponent/>}/>
         </Routes>
       </Router>
     </div>
