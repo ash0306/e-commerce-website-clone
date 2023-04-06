@@ -25,10 +25,10 @@ function ShippingComponent() {
             <h3>Payment Details</h3><br/>
             <input type="radio" className="cod" required/>
             <label>   Cash on Delivery</label><br/>
-            <CurrencyFormat
+            <CurrencyFormat className='payment_amt'
                 renderText={(value) =>(
                 <>
-                    <p>Total({basket.length} product) : {value}</p>
+                    <h2>Total({basket.length} product) : {value}</h2>
                 </>
                 )}
                 decimalScale={2}
