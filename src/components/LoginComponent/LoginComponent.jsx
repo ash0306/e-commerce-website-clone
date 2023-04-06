@@ -35,7 +35,7 @@ function LoginComponent() {
   return (
     <div className='container'>
     <div className='login'>
-        <img className='login_logo' src='https://www.littsburgh.com/wp-content/uploads/2020/12/spark-books-logo-01-300x300.png' alt='logo'/>
+        <img className='login_logo' src='logo.png' alt='logo'/>
         <div className='login_content'>
             <h1>Login</h1>
             <br/>

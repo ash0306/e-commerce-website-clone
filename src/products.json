@@ -3,7 +3,7 @@
         "id": 1,
         "pname": "It Ends With Us : Sometimes The One Who Loves You Is The One Who Hurts You The Most",
         "author": "Colleen Hoover",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81s0B6NYXML.jpg",
+        "image": "endswithus.jpg",
         "description": "It Ends with Us is a romance novel by Colleen Hoover, published by Atria Books on August 2, 2016. Based on the relationship between her mother and father.",
         "price": 214,
         "rating": 4
@@ -12,7 +12,7 @@
         "id": 2,
         "pname": "Red Queen 4-Book Hardcover Box Set: Books 1-4 ",
         "author": "Victoria Aveyard",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41i6ThSua-L._SX415_BO1,204,203,200_.jpg",
+        "image": "redqueen.jpg",
         "description": "Red Queen is a young adult fantasy novel written by American writer Victoria Aveyard. Published in February 2015, it was her first novel and first series. Aveyard followed up with three sequels: Glass Sword, King's Cage and War Storm.",
         "price": 5060,
         "rating": 5
@@ -21,7 +21,7 @@
         "id": 3,
         "pname": "A Court of Thorns and Roses Paperback Box Set (5 books)",
         "author": "Sarah J Maas",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/810Wt+FaYsL._AC_UL600_FMwebp_QL65_.jpg",
+        "image": "acotar.webp",
         "description": "A Court of Thorns and Roses is a new adult fantasy novel series by American author Sarah J. Maas, beginning with the novel of the same name, released in May 2015.",
         "price": 2067,
         "rating": 5
@@ -30,7 +30,7 @@
         "id": 4,
         "pname": "The Bridge Kingdom Hardcover - 13 August 2019",
         "author": "Danille L Jensen",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81JRbVVPCFL.jpg",
+        "image": "bridge.jpg",
         "description": "The Bridge Kingdom is an exciting new fantasy series from USA Today bestselling author Danielle L Jensen.",
         "price": 3304,
         "rating": 5
@@ -39,7 +39,7 @@
         "id": 5,
         "pname": "Air Awakens: The Complete Series Hardcover - 12 August 2020",
         "author": "Elise Kova",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/519uGERfbBL.jpg",
+        "image": "air.jpg",
         "description": "Air Awakens is a five part YA/fantasy series written by author Elise Kova",
         "price": 7346,
         "rating": 4
@@ -48,7 +48,7 @@
         "id": 6,
         "pname": "It Starts With Us Paperback - 18 October 2022",
         "author": "Colleen Hoover",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81FummIc2eL.jpg",
+        "image": "startswithus.jpg",
         "description": "It Starts with Us is a romance novel by Colleen Hoover, published by Atria Books on October 18, 2022. It is the sequel to her 2016 best-selling novel It Ends with Us",
         "price": 240,
         "rating": 5
@@ -57,7 +57,7 @@
         "id":7,
         "pname": "Ikigai: The Japanese secret to a long and happy life [Hardcover]",
         "author": "Francesc Miralles and Hector Garcia",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/814L+vq01mL.jpg",
+        "image": "ikigai.jpg",
         "description": "We all have an ikigai. It's the Japanese word for ‘a reason to live’ or ‘a reason to jump out of bed in the morning’.",
         "price": 247,
         "rating": 4
@@ -66,7 +66,7 @@
         "id":8,
         "pname": "Harry Potter Box Set: The Complete Collection",
         "author": "JK Rowling",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81zqe4fNdlL.jpg",
+        "image": "harrypotter.jpg",
         "description": "A beautiful boxed set containing all seven Harry Potter novels in paperback. These are the new editions of the classic and internationally bestselling, multi-award-winning series",
         "price": 2439,
         "rating": 5
@@ -75,7 +75,7 @@
         "id":9,
         "pname": "Haunting Adeline Paperback English Edition 2023",
         "author": "HD Carlton",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71QSecJ64LL.jpg",
+        "image": "adeline.jpg",
         "description": "H. D. Carlton is an International and USA Today Bestselling author. She lives in Ohio with her partner, two dogs, and cat.",
         "price": 370,
         "rating": 5
@@ -84,7 +84,7 @@
         "id":10,
         "pname": "War of Lanka (Ram Chandra Series Book 4) Paperback",
         "author": "Amish Tripati",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91+T1TAxkKL.jpg",
+        "image": "waroflanka.jpg",
         "description": "LANKA WILL BURN. DARKNESS WILL PERISH. BUT CAN LIGHT ENDURE? INDIA, 3400 BCE.Greed. Rage. Grief. Love. Smouldering tinder, waiting to trigger a war.",
         "price": 307,
         "rating": 5
@@ -93,7 +93,7 @@
         "id":11,
         "pname": "Shatter Me - The Complete Collection (9-Book Boxset) Paperback",
         "author": "Tahereh Mafi",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71hOlJ9ah9L.jpg",
+        "image": "shatterme.jpg",
         "description": "The most popular YA fantasy of 2021 by Tahereh Mafi",
         "price": 4199,
         "rating": 5
@@ -102,7 +102,7 @@
         "id":12,
         "pname": "Percy Jackson Complete Collection - Paperback",
         "author": "Rick Riordan",
-        "image": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71toKgSkMAS.jpg",
+        "image": "percy.jpg",
         "description": "The book follows the entire story of Percy, a boy set in modern times who discovers he is a demi-God, Son of Poseidon",
         "price": 1350,
         "rating": 5

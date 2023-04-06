@@ -10,7 +10,7 @@ function HomeComponent() {
       <div className='home_header'>
       <img
         className="home_banner"
-        src="https://img.freepik.com/premium-photo/open-book-green-background_90380-1756.jpg?w=1380"
+        src="banner.avif"
         alt="banner"
       />
       <h3 className='home_caption'>✨A book is a dream that <br/>you hold in your hand✨</h3>

@@ -26,7 +26,7 @@ function HeaderComponent(id) {
       <Link to='/' onClick={clearDesc}>
         <img
           className="logo"
-          src="https://www.littsburgh.com/wp-content/uploads/2020/12/spark-books-logo-01-300x300.png"
+          src="logo.png"
         />
       </Link>
       
