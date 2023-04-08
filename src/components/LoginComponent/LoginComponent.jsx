@@ -5,18 +5,29 @@ import {useNavigate} from 'react-router-dom'
 import { auth } from '../../firebase';
 import HeaderComponent from '../HeaderComponent/HeaderComponent';
 import { signInWithEmailAndPassword } from 'firebase/auth';
+import { useStateValue } from '../../StateProvider';
 
 
 function LoginComponent() {
+    const [{user}, dispatch] = useStateValue();
     const navigate = useNavigate();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    // const [userEmail, setUser] = useState('');   
 
+    const set_user = () => {
+        dispatch({
+            type: 'SET_USER',
+            user : true
+        })
+    }
     const onLogin = (e) => {
         e.preventDefault();
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential)=>{
-            const user = userCredential.user;
+            let user_email = userCredential.user.email;
+            alert('Logged in successfully');    
+            set_user();
             navigate('/')
         })
         .catch((error) => {

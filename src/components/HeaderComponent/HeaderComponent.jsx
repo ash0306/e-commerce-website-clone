@@ -33,7 +33,7 @@ function HeaderComponent(id) {
       </div>
 
       <div className="navbar">
-        <Link to={!user && '/login'}>
+        <Link to={!user ? '/login' : '/logout'}>
         <div className="options">
             <span className="lineOne">Hello {!user ? 'Guest' : 'User'}</span>
             <span className="lineTwo">{!user ? 'Sign In' : 'Sign Out'}</span>

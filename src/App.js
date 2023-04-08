@@ -11,28 +11,10 @@ import DisplayDetailsComponent from './components/DisplayDetailsComponent/Displa
 import ShippingComponent from './components/ShippingComponent/ShippingComponent';
 import RegisterComponent from './components/RegisterComponent/RegisterComponent';
 import MainWishlistComponent from './components/MainWishlistComponent/MainWishlistComponent';
+import LogoutComponent from './components/LogoutComponent/LogoutComponent';
 
 
 function App() {
-  const [dispatch] = useStateValue();
-
-  useEffect (() => {
-    auth.onAuthStateChanged((authUser) => {
-      if (authUser) {
-        dispatch({
-          type: "SET_USER",
-          user: authUser,
-        });
-      } else {
-        dispatch({
-          type: "SET_USER",
-          user: null,
-        });
-      }
-    });
-  }, []);
-
-
   return (
     <div className="App">
       <Router>
@@ -45,6 +27,7 @@ function App() {
           <Route exact path='/details' element={<DisplayDetailsComponent/>}/>
           <Route exact path='/shipping' element={<ShippingComponent/>}/>
           <Route exact path='/wishlist' element={<MainWishlistComponent/>}/>
+          <Route exact path='/logout' element={<LogoutComponent/>}/>
         </Routes>
       </Router>
     </div>

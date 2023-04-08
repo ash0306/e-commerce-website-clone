@@ -1,7 +1,8 @@
 export const initialState = {
     details : [],
     basket : [],
-    wishlist : []
+    wishlist : [],
+    user : 'false'
 };
 
 export const getBasketTotal = (basket) => basket?.reduce((amount, product) => product.price + amount, 0);
@@ -9,6 +10,16 @@ export const getBasketTotal = (basket) => basket?.reduce((amount, product) => pr
 const reducer = (state,action) => {
     console.log(action);
     switch (action.type) {
+        case 'SET_USER':
+            return {
+              ...state,
+                user: action.user
+            }
+        case 'DELETE_USER':
+            return{
+                ...state,
+                user: action.user
+            }
         case 'ADD_TO_BASKET':
             return {
                 ...state,
