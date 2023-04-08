@@ -3,7 +3,7 @@ import './WishlistComponent.css'
 import { useStateValue } from '../../StateProvider'
 import { Link } from 'react-router-dom';
 
-function WishlistComponent({id,pname,image,price,rating,hideButton}) {
+function WishlistComponent({id,pname,image,price,rating,hideButton,author,description}) {
     const [{wishlist}, dispatch] = useStateValue();
 
     const removeFromWishlist = () => {

@@ -29,12 +29,12 @@ h1{
 }
 
 .subtotal > button{
-    width:300px;
-    height:50px;
-    font-size: 20px;
-    background-color: darkslategray;
-    color:white;
-    border-radius: 25px;
+    background-color: #F8982D;
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    align-items: center;
     cursor: pointer;
 }
 

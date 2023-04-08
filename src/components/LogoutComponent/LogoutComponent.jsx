@@ -11,6 +11,7 @@ function LogoutComponent() {
             type: 'DELETE_USER',
             user: false
         })
+        alert('Successfully Logged out');
     }
   return (
     <React.Fragment>

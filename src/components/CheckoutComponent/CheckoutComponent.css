@@ -16,9 +16,11 @@
 }
 
 .product_info > button{
-    width:250px;
-    height:30px;
-    border-radius: 15px;
-    background-color: darkslategrey;
+    background-color: #F8982D;
+    border: none;
     color: white;
+    padding: 15px;
+    border-radius: 12px;
+    align-items: center;
+    cursor: pointer;
 }

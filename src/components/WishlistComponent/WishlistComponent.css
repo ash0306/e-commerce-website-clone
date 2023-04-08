@@ -4,6 +4,7 @@
     background-color:#DCDCDC;
     padding: 15px;
     border: 1px solid black;
+    border-radius: 12px;
 }
 .item_img{
     object-fit: contain;
@@ -13,10 +14,11 @@
 }
 
 .item_info > button{
-    width:250px;
-    height:30px;
-    border-radius: 15px;
-    background-color: darkslategrey;
+    background-color: #F8982D;
+    border: none;
     color: white;
+    padding: 15px;
+    border-radius: 12px;
+    align-items: center;
     cursor: pointer;
 }
