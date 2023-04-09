@@ -32,19 +32,6 @@ function HeaderComponent(id) {
       <div className="searchbar">
         <input className="searchInput" type="text" placeholder='Search for books...'/>
         <SearchIcon className="searchIcon" />
-        {/* {Products.filter(post => {
-          if(query === ""){
-            return post;
-          }
-          else if(post.pname.toLowerCase().includes(query.toLowerCase())){
-            return post;
-          }
-        }).map((post,id) => (
-          <div className='searchbox' key={id}>
-            <p>{post.pname}</p>
-          </div>
-        ))
-        } */}
       </div>
 
       <div className="navbar">
