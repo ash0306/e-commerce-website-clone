@@ -12,7 +12,7 @@ const reducer = (state,action) => {
     switch (action.type) {
         case 'SET_USER':
             return {
-              ...state,
+                ...state,
                 user: action.user
             }
         case 'DELETE_USER':
@@ -76,11 +76,6 @@ const reducer = (state,action) => {
                 ...state,
                 wishlist: newWishlist
         }
-        case "SET_USER":
-            return{
-                ...state,
-                user:action.user
-            }
         default:
             return state;
     }
