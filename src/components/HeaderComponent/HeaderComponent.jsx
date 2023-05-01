@@ -11,7 +11,16 @@ import FavoriteIcon from '@material-ui/icons/Favorite'
 
 function HeaderComponent(id) {
   const [{basket, user}, dispatch] = useStateValue();
-  // const [query, setQuery] = useState("");
+  const [value, setValue] = useState("");
+
+  const onChangeHandler = (event) =>{
+    setValue(event.target.value);
+  }
+
+  const onSearchHandler = (searchTerm) =>{
+    console.log("search",searchTerm);
+  }
+
   const clearDesc = () =>{
     dispatch({
       type: 'CLEAR_DESCRIPTION',
@@ -21,21 +30,31 @@ function HeaderComponent(id) {
 
   return (
     <div className="header">
+      <div className='img-logo'>
       <Link to='/' onClick={clearDesc}>
         <img
           className="logo"
           src="logo.png"
         />
       </Link>
-      
-
-      <div className="searchbar">
-        <input className="searchInput" type="text" placeholder='Search for books...'/>
-        <SearchIcon className="searchIcon" />
       </div>
 
+      {/* <div className="searchbar-container">
+        <div className='searchbar'>
+          <div className='search'>
+            <input className="searchInput" type="text" placeholder='Search for books...' />
+            <div className='search-icon'><SearchIcon/></div>
+          </div>
+        </div>
+        <div className='data-result'>
+          {Products.map((value, key)=>{
+            return <div className='data-items'>{value.pname}</div>;
+          })}
+        </div> */}
+      
+
       <div className="navbar">
-        <Link to={!user ? '/login' : '/logout'}>
+      <Link to={!user ? '/login' : '/logout'}>
         <div className="options">
             <span className="lineOne">Hello {!user ? 'Guest' : 'User'}</span>
             <span className="lineTwo">{!user ? 'Sign In' : 'Sign Out'}</span>

@@ -1,5 +1,6 @@
 .header {
     height: 100px;
+    width:100%;
     display: flex;
     align-items: center;
     background-color: #DCDCDC;
@@ -12,9 +13,20 @@
     width: 100px;
     object-fit: contain;
     margin: 0 20px;
-    /* margin-top: 18px; */
+  }
+
+  .img-logo{
+    float: left;
+
   }
   
+  /* .searchbar-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+  }
+
   .searchbar{
     display: flex;
     flex: 1;
@@ -27,6 +39,7 @@
     padding: 10px;
     border: none;
     width: 100%;
+    border-radius: 15px;
   }
   
   .searchIcon {
@@ -34,8 +47,9 @@
     height: 22px !important;
     color: white;
     background-color: black;
-  }
-  
+    border-radius: 15px;
+  } */
+
   .lineOne {
     font-size: 12px;
     font-weight: 400;
@@ -58,8 +72,10 @@
   }
   
   .navbar {
+    margin-left: 950px;
     display: flex;
     justify-content: space-evenly;
+    float: right;
   }
   
   .options {
